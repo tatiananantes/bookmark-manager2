@@ -1,7 +1,5 @@
 class Bookmark
-
-  @@bookmarks = ["Makers Academy", "Google", "MSNBC"]
-
+    @@bookmarks = ["Makers Academy", "Google", "MSNBC"]
   def self.all
     @@bookmarks
   end
