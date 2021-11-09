@@ -1,1 +1,6 @@
-<%=@bookmarks%>
+<h1 style= "background-color:pink">Your Bookmarks:</h1>
+<ol>
+   <% @bookmarks.each do |bookmark| %>
+     <li><%= bookmark %></li>
+   <% end %>
+</ol>

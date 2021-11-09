@@ -7,10 +7,10 @@ describe Bookmark do
     end
     #it { is_expected.to respond_to(:all) }
     it 'returns an array of bookmarks' do
-      bookmarks = Bookmarks.all
-      expect(bookmarks).to include 'http://www.makersacademy.com/'
+      bookmarks = Bookmark.all
+      expect(bookmarks).to include 'http://www.makersacademy.com'
       expect(bookmarks).to include 'http://www.destroyallsoftware.com'
-      expect(bookmarks).to include 'http://www.google.com/'
+      expect(bookmarks).to include 'http://www.google.com'
     end
   end
 end
