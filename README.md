@@ -50,3 +50,4 @@ To view bookmarks, navigate to `localhost:3000/bookmarks`.
 
 ## To run tests:
 run db/migrations/01_create_bookmarks_table.sql
+
