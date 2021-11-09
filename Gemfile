@@ -5,6 +5,7 @@ ruby '3.0.2'
 gem 'sinatra'
 
 group :development, :test do
+  gem 'pg'
   gem 'sinatra-contrib'
   gem 'rspec'
   gem 'capybara'
