@@ -51,3 +51,8 @@ To view bookmarks, navigate to `localhost:3000/bookmarks`.
 ## To run tests:
 run db/migrations/01_create_bookmarks_table.sql
 
+
+## User story number 2 - Add new bookmarks 
+As a user 
+I want to be able to add a bookmark 
+So that I can easily access them later 
