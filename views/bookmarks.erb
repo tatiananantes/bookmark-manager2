@@ -1,6 +1,10 @@
-<h1 style= "background-color:pink">Your Bookmarks:</h1>
-<ol>
-   <% @bookmarks.each do |title, url| %>
-     <li><%= title %></li>
-   <% end %>
-</ol>
+<h1 style= "background-color:blue">Your Bookmarks:</h1>
+<ul>
+  <% @bookmarks.each do |bookmark| %>
+    <li>
+      <a href="<%= bookmark.url %>">
+        <%= bookmark.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>
