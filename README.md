@@ -1,7 +1,7 @@
 # Bookmarks
 
 ## User stories 
-
+```
 As a user 
 So that I can visit my regular web pages faster
 I’d like to be shown a list of my bookmarks
@@ -18,6 +18,10 @@ As a user
 I want to be able to update a bookmark
 So that I can keep my list up to date
 
+```
+
+## Domain Model
+![Domain Model for Bookmark challenge](https://github.com/tatiananantes/bookmark-manager/blob/main/images/domain_model.png)
 
 ## To set up the database
 
