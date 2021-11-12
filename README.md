@@ -1,32 +1,19 @@
 # Bookmarks
 
-## User story 
+## User stories 
 
 As a user 
 So that I can visit my regular web pages faster
 I’d like to be shown a list of my bookmarks
 
+As a user 
+I want to be able to add a bookmark 
+So that I can easily access them later 
 
-## Domain model diagram 
+As a user 
+I want to be able to delete a bookmark
+So that I can remove it from my list
 
-alias user="User"\
-alias client="Client(browser)"\
-alias controller="Controller(app.rb)"\
-alias model="Model(Bookmark class)"\
-alias view="View(index.erb file)"
-
-
-user->client: "types URL in address bar"\
-client->controller: "HTTP GET request made"\
-controller->model: "Asks for Bookmark.all"\
-model->model: "Gets the bookmarks as an array"\
-model->controller: "Gives the bookmarks as an array"\
-controller->view: "Requests the visuals of bookmarks from erb file"\
-view->controller: "Sends the html of the bookmarkers to the controller"\
-controller->client: "The browser now has the bookmarks on the webpage"\
-client->user: "The user can view the bookmarks on the browser"
-
-<img src="https://imgur.com/f2aYVXi.jpg"/>
 
 ## To set up the database
 
@@ -52,7 +39,4 @@ To view bookmarks, navigate to `localhost:3000/bookmarks`.
 run db/migrations/01_create_bookmarks_table.sql
 
 
-## User story number 2 - Add new bookmarks 
-As a user 
-I want to be able to add a bookmark 
-So that I can easily access them later 
+
